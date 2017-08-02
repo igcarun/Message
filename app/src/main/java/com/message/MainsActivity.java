@@ -15,7 +15,7 @@ public class MainsActivity extends AppCompatActivity {
     }
 
     public void message(){
-        Toast.makeText(MainsActivity.this, "Dependency trail success", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "Dependency trail success", Toast.LENGTH_LONG).show();
     }
 
 }
